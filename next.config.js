@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   images: {
-    unoptimized: true,
-  },
-  trailingSlash: true,
-  eslint: {
-    ignoreDuringBuilds: true,
+    domains: ['yitszskqhbtuplwotgon.supabase.co', 'images.unsplash.com'],
   },
 };
 
